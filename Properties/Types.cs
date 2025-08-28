@@ -2,14 +2,14 @@
 
 public enum AnimationType
 {
-    tvseries,
-    tvspecial,
-    ova,
-    movie,
-    musicvideo,
-    web,
-    other,
-    jpmovie,
-    jpdrama,
-    unknown
+    TvSeries,
+    TvSpecial,
+    Ova,
+    Movie,
+    MusicVideo,
+    Web,
+    Other,
+    JpVovie,
+    JpDrama,
+    Unknown
 }

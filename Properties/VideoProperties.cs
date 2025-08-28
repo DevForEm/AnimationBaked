@@ -1,4 +1,6 @@
-﻿namespace AnimationBaked.Properties;
+﻿using Newtonsoft.Json;
+
+namespace AnimationBaked.Properties;
 
 public class LocalAnimateInfo
 {
@@ -36,9 +38,11 @@ public class BatchMatchResponseItem
 public class MatchResultV2
 {
     /// <summary> 弹幕库ID</summary>
+    [JsonProperty(nameof(episodeId))]
     public int episodeId { get; set; }
 
     /// <summary> 作品ID </summary>
+    [JsonProperty(nameof(animeId))]
     public int animeId { get; set; }
 
     /// <summary>作品标题 </summary>

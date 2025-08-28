@@ -6,7 +6,7 @@ using System.Text;
 
 public class SocketServer
 {
-    public static void StartSocketServer()
+    public  void StartSocketServer()
     {
         var socketServerListener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
